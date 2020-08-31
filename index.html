@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chocolate Cake</title>
+	<meta name= viewport content= "width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+
+	<header>
+		<nav>
+			
+			<div class="row clearfix">
+				<img src="images/chocolatelogo.jpg"  class="logo">
+
+				<ul class="main-nav animated slideInDown" id="check-class">
+					<li><a href="#ABOUT">ABOUT</a></li>
+                     <li><a href="#"> ORDER </a></li>
+                     <li><a href="#">GALLERY</a></li>
+                     <li><a href="#"> CONTACT </a></li>
+                     <li><a href="#"> Sign Up </a></li>
+                 </ul>
+                 <a href="#" class="mobile-icon"  onclick="slideshow()"> <i class="fa fa-bars"></i> </a>
+
+             </div>
+        </nav>
+
+        <div class="main-content-header">
+
+		     <h1>WELCOME TO <span class="colorchange">CHOCOLATE WORLD</span>.<br>
+		         THE CHOCOLATE IS ALWAYS LOVED.</h1>
+
+		<a href="#" class="btn btn-full"> click to order</a>
+		<a href="#" class="btn btn-nav"> show more</a>
+	    </div>
+	</header>
+	<section id="ABOUT">
+		<p>
+			If you Love eating Chocolates then this site is totally for you . Yes my dear
+		    friend here you are going to get the different types of chocolates and all the
+	   	    healthy benefits of eating Chocolates. Chocolate is a food made from cacao beans. 
+			It is used in many desserts like pudding, cakes, candy, ice cream, and Easter eggs. 
+			It can be in a solid form like a candy bar or it can be in a liquid form like hot chocolate. 
+	        Commercial chocolate has sugar and sometimes milk added.
+            Dark chocolate has less sugar, and a more bitter taste. It was originally used to make drinking
+            chocolate. Chocolate can also make S'mores.
+		</p>
+	</section>
+
+
+
+
+	<script type="text/javascript">
+		
+		function slideshow(){
+			 var x = document.getElementById('check-class');
+			 if(x.style.display === "none"){
+			 	x.style.display="block";
+			 }else{
+			 	x.style.display="none";
+			 }
+		}	
+
+	</script>
+
+
+</body>
+</html>
